@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">SECODI</string>
+    <string name="comptabilite">Comptability</string>
+    <string name="adrServeur">Server adress</string>
+    <string name="svt">Next</string>
+    <string name="login">Login</string>
+    <string name="mdp">Password</string>
+    <string name="connexion">Connexion</string>
+    <string name="acceuil">Home</string>
+    <string name="jrnauxSaisie">Journaux de saisie</string>
+    <string name="gestErreur">Error gestion</string>
+    <string name="btn">Button</string>
+    <string name="date">Date</string>
+    <string name="jrnal">Journal</string>
+    <string name="typeOperat">Operation type</string>
+    <string name="numCmptColl">Num compte collectif</string>
+    <string name="cmpte">Account</string>
+    <string name="annuler">Reset</string>
+    <string name="libOperat">Libelle operation</string>
+    <string name="mtn">Montant</string>
+    <string name="numPiece">Num piece</string>
+    <string name="numFact">Num facture</string>
+    <string name="prev">Previous</string>
+    <string name="valider">Success</string>
+    <string name="CR">CR</string>
+    <string name="vehicule">Vehicule</string>
+    <string name="banque">Banque</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="tiers">Tiers</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="numeriser">Numeriser</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ecrit_analytique"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.secodi.it_solution.secodi.EcritAnalytique">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/CR" />
+
+    <Spinner
+        android:id="@+id/spinCR"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignStart="@+id/spinVehicule"
+        android:layout_toEndOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/CR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinCR"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/spinCR"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="53dp"
+        android:text="@string/vehicule" />
+
+    <Spinner
+        android:id="@+id/spinVehicule"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/vehicule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinVehicule"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/spinVehicule"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="56dp"
+        android:text="@string/banque" />
+
+    <Spinner
+        android:id="@+id/spinBanque"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignStart="@+id/spinVehicule" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinBanque"
+        android:layout_alignStart="@+id/CR"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="62dp"
+        android:text="@string/mtn" />
+
+    <TextView
+        android:id="@+id/valMtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/spinBanque"
+        android:layout_marginStart="11dp"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/annuler"
+        style="@style/btn"
+        android:layout_width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/annuler" />
+
+    <Button
+        android:id="@+id/valider"
+        style="@style/btn"
+        android:layout_width="150dp"
+        android:layout_alignBottom="@id/annuler"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/annuler"
+        android:text="@string/valider" />
+</RelativeLayout>
