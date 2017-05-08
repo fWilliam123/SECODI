@@ -24,10 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView6"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="34dp"
         android:layout_toRightOf="@+id/textView6"
         android:ems="10"
         android:inputType="textPersonName"
@@ -65,14 +62,14 @@
 
     <EditText
         android:id="@+id/numPiece"
-        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView8"
         android:layout_marginStart="22dp"
         android:layout_toEndOf="@+id/textView8"
         android:ems="10"
         android:inputType="number"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_width="120dp" />
 
     <Button
         android:id="@+id/btnNum"

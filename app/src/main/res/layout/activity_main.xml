@@ -11,39 +11,9 @@
     tools:context="com.secodi.it_solution.secodi.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        tools:text="@string/comptabilite" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="104dp"
-        android:text="TextView"
-        tools:text="@string/adrServeur" />
-
-    <EditText
-        android:id="@+id/adrServer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="89dp"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_toRightOf="@+id/textView2"
-        android:ems="10"
-        android:inputType="number" />
-
+        android:id="@+id/test"/>
     <Button
         android:id="@+id/svt"
         style="@style/btn"
